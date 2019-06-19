@@ -1,0 +1,101 @@
+body {
+    background: #fefefe;
+    color: #333;
+}
+
+.mainHeader {
+    color: tomato;
+}
+
+p {
+    color: darkblue;
+}
+
+.sectionHeader, .diaryHeader {
+    color: #1460aa;
+ }
+
+/* .diaryHeader {
+    color: #6c1285;
+} */
+
+.thirdHeader {
+    color: #0496FF;
+}
+.link {
+ color: #1A936F;
+}
+
+.heading {
+    color: #00487C;
+    margin-bottom: 48px;
+}
+
+.about {
+    /* width: 100%;
+    max-width: 700px; */
+    /* height: 200px;
+    overflow: scroll; */
+
+    /* height:  400px; */
+    /* margin: 0 auto; */
+    /* position: relative; */
+}
+
+.paragraph {
+    padding: 16px 0 0 16px;
+    /* border: 3px solid #1A936F; */
+    /* border-bottom: 3px dotted #1A936F; 
+    background: #333;
+    color: #fff;
+    border-radius: 30px; */
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+
+.box, .boxTest{
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    margin: 10px;
+    position: absolute;
+    top: 10px;
+    right: 50%;
+}
+
+.box {
+    z-index: 2;
+    position: fixed;
+}
+
+.boxTest {
+    top: 30px;
+    background: blue;
+    right: 55%;
+}
+
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #1A936F;
+    text-decoration: none;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+
+}

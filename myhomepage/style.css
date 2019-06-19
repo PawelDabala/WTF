@@ -1,0 +1,14 @@
+body {
+    background: #fefefe;
+}
+
+
+.header {
+    color: #1460AA;
+    font: 15px;
+    /* text-decoration-line: underline; */
+}
+
+.textBackGround {
+    background:  rgb(196, 199, 202)
+}
