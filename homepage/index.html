@@ -11,8 +11,8 @@
 
 <body>
     <header class="navigation">
-        <a class="link" href="index.html">Strona główna</a>
-        <a class="link" href="podstrona.html">Podstrona</a>
+        <a class="navigation__link" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="podstrona.html">Podstrona</a>
     </header>
     <main id="top" class="main">
         <header>
@@ -22,23 +22,31 @@
         </header>
 
         <section class="about">
-            <!-- <div class="box">Co ten frontend</div>
-            <div class="boxTest">Co ten frontend test</div> -->
+            <div class="box">Co ten frontend</div>
+            <!-- <div class="boxTest">Co ten frontend test</div> -->
+            <!-- <img src="korsan-header.jpg" alt="usmiechnięty korsan" class="korsi"> -->
 
-            <h2 class="sectionHeader">Kim jestem?</h2>
-            <p class="paragraph">
-                Hej! <b>Na codzień</b> uczę wspaniałych ludzi tajnej sztuki fontendu i pracuję w firme o ciężko zapisywalnej
-                nazwie: <strong>EYEDEA</strong>. Poza tym bardzo lubię robić zdjęcia i latać dronem. Witam Cię na mojej stronie domowej,
+            <h2 class="about__header">Kim jestem?</h2>
+            <p class="about__paragraph">
+                <img src="korsan-header.jpg" alt="usmiechnięty korsan" class="about__picture">
+                Hej! <b>Na codzień</b> uczę wspaniałych ludzi tajnej sztuki fontendu i pracuję w firme o ciężko
+                zapisywalnej
+                nazwie: <strong>EYEDEA</strong>. Poza tym bardzo lubię robić zdjęcia i latać dronem. Witam Cię na mojej
+                stronie domowej,
                 mam nadzieje, że znajdziesz tu trochę przydatnych
                 rzeczy.
+                <br>
+                <a class="about__link" href="#pamietniczek">Przejdz do pamiętniczka</a>
             </p>
-            <a class="link" href="#pamietniczek">Przejdz do pamiętniczka</a>
+            <p class="about__paragraph about__paragraph--color">
+                Testuje modyfikator.
+            </p> 
         </section>
 
-        <section>
+        <section class="diary" id="pamietniczek">
             <h2 class="diaryHeader">Pamiętniczek</h2>
             <section>
-                <h3 class="thirdHeader" >Jak stworzyć prawidłowego HTML-a</h3>
+                <h3 class="thirdHeader">Jak stworzyć prawidłowego HTML-a</h3>
                 <p class="paragraph">
                     Tworzenie zgodnego ze standardami HTML-a to sztuka, która do perfekcji opanawało niewielu. Jeśli
                     chcesz stać się cześcią tej grupy, musisz wykazać się otwartą głową i dużą ilością wolnego czasu...
@@ -56,7 +64,7 @@
                     do skończenia pracy.
                 </p>
             </section>
-            
+
         </section>
 
         <footer>
@@ -66,10 +74,10 @@
 
     </main>
 
-    
+
     <script src="main.js">
-    
-    </script>    
+
+    </script>
 
 
 </body>

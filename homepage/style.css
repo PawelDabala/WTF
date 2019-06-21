@@ -13,7 +13,7 @@ p {
 
 .sectionHeader, .diaryHeader {
     color: #1460aa;
- }
+}
 
 /* .diaryHeader {
     color: #6c1285;
@@ -22,8 +22,9 @@ p {
 .thirdHeader {
     color: #0496FF;
 }
-.link {
- color: #1A936F;
+
+.navigation__link {
+    color: #1A936F;
 }
 
 .heading {
@@ -31,16 +32,16 @@ p {
     margin-bottom: 48px;
 }
 
-.about {
+/* .about {
     /* width: 100%;
     max-width: 700px; */
     /* height: 200px;
     overflow: scroll; */
-
     /* height:  400px; */
     /* margin: 0 auto; */
     /* position: relative; */
-}
+    
+} */
 
 .paragraph {
     padding: 16px 0 0 16px;
@@ -49,6 +50,7 @@ p {
     background: #333;
     color: #fff;
     border-radius: 30px; */
+    /* overflow: hidden; */
 }
 
 .main {
@@ -58,22 +60,23 @@ p {
     padding-top: 50px;
 }
 
-.box, .boxTest{
+.box, .boxTest {
     width: 100px;
     height: 100px;
     background: yellowgreen;
     padding: 10px;
     border: 10px solid red;
     margin: 10px;
-    position: absolute;
-    top: 10px;
+    /* position: absolute; */
+    position: sticky;
+    top: 0px;
     right: 50%;
 }
 
-.box {
+/* .box {
     z-index: 2;
     position: fixed;
-}
+} */
 
 .boxTest {
     top: 30px;
@@ -81,7 +84,7 @@ p {
     right: 55%;
 }
 
-.top{
+.top {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -97,5 +100,44 @@ p {
     box-sizing: border-box;
     padding: 16px;
     background: #fff;
+}
 
+/* .korsi {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    float: right;
+    margin: 0 16px 16px 0;
+} */
+
+.diary {
+    clear: both; 
+}
+
+.about {
+
+}
+
+.about__header {
+    color: #1460aa;
+}
+
+.about__paragraph {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.about__picture {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0; 
+}
+
+.about__paragraph--color {
+    color: #FF6700;
+}
+.about__link {
+    color: #1A936F;
 }
