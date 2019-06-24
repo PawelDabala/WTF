@@ -24,6 +24,7 @@
 .main__footer {
     padding: 20px;
 }
+
 .header {}
 
 .header__title {
@@ -36,15 +37,49 @@
     font-size: 20px;
 }
 
-.about {
-
-}
+.about {}
 
 .about__header, .diary__header, .entry_header {
     color: #1460AA;
 }
 
-.about__link, .entry__link{
+.about__link, .entry__link {
     color: #1A936F;
     text-decoration: none;
+}
+
+.dayentry {}
+
+.dayentry__navigation {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+}
+
+.dayentry__link {
+    color: #1A936F;
+    text-decoration: none;
+}
+
+.dayentry__title {
+    color: #1460aa;
+}
+
+.dayentry__paragraph {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.dayentry_picture {
+    width: 100%;
+    max-width:  150px;
+    margin: 0 16px 16px 0;
+}
+
+.dayentry__footer {
+    padding: 20px;
 }
