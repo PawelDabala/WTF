@@ -32,16 +32,17 @@ p {
     margin-bottom: 48px;
 }
 
-/* .about {
-    /* width: 100%;
-    max-width: 700px; */
-    /* height: 200px;
-    overflow: scroll; */
-    /* height:  400px; */
-    /* margin: 0 auto; */
-    /* position: relative; */
+ /* .about {
+    width: 100%;
+    max-width: 700px;
+    height: 200px;
+    overflow: scroll; 
+    height:  400px; 
+    margin: 0 auto;
+   position: relative;
     
-} */
+}   */
+
 
 .paragraph {
     padding: 16px 0 0 16px;
