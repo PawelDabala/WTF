@@ -1,4 +1,4 @@
-body {
+/* body {
     background: #fefefe;
 }
 
@@ -6,9 +6,45 @@ body {
 .header {
     color: #1460AA;
     font: 15px;
-    /* text-decoration-line: underline; */
+    /* text-decoration-line: underline; 
 }
 
 .textBackGround {
     background:  rgb(196, 199, 202)
+}
+ */
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 32px auto;
+    padding-top: 50px;
+}
+
+.main__footer {
+    padding: 20px;
+}
+.header {}
+
+.header__title {
+    color: #1460AA;
+    font: 15px;
+}
+
+.header__paragraph {
+    padding: 16px;
+    font-size: 20px;
+}
+
+.about {
+
+}
+
+.about__header, .diary__header, .entry_header {
+    color: #1460AA;
+}
+
+.about__link, .entry__link{
+    color: #1A936F;
+    text-decoration: none;
 }
