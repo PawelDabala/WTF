@@ -11,7 +11,7 @@ p {
     color: darkblue;
 }
 
-.sectionHeader, .diaryHeader {
+.sectionHeader {
     color: #1460aa;
 }
 
@@ -26,8 +26,10 @@ p {
 .navigation__link {
     color: #1A936F;
 }
-
-.heading {
+.header {
+    color: yellow;
+}
+.header__title {
     color: #00487C;
     margin-bottom: 48px;
 }
@@ -115,6 +117,10 @@ p {
     clear: both; 
 }
 
+.diary__Header {
+    color: #1460aa;
+}
+
 .about {
 
 }
@@ -141,4 +147,34 @@ p {
 }
 .about__link {
     color: #1A936F;
+}
+
+
+.day {
+    padding: 16px;
+}
+
+.day__heaer {
+    margin: 0 0 16px;
+    color: #0f96ff;
+    font-size: 20px;
+}
+
+.day__paragraph {
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.day__header--sunday {
+    color: darkred;
+}
+
+.hobby {
+
+}
+
+.hobby__list {
+    list-style: none;
+    padding: 0;
 }
