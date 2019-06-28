@@ -1,0 +1,19 @@
+.page {
+    /* background-image: url('../img/tlo.jpg'); */
+    min-height: 100vh;
+    background-position: center center;
+    /* background-repeat: repeat-x;  */
+    background-attachment: fixed;
+    background-color: seagreen;
+    background-image: url('../img/tlo.jpg');
+    background-size: cover;
+}
+
+.content {
+    background: #fff;
+    
+    color: #fff;
+    padding: 30px;
+    background-clip: padding-box;
+    background-color: rgba(255,255,255,0.5);
+}
