@@ -7,28 +7,30 @@ html {
 }
 
 body {
-    background: #2C2141;
+    background-color: #2C2141;
     min-height: 100vh;
-    padding: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 .card {
-    background: #F8F8F8;
-    border-radius: 16px;
+    background-color: #FFFFFF;
     max-width: 624px;
     width: 100%;
+    border-radius: 16px;
     padding: 32px;
 }
 
 .person {
     display: flex;
     align-items: flex-start;
-    
+}
+
+.person__header {
+    margin-bottom: 32px;
 }
 
 .person__description {
@@ -41,10 +43,6 @@ body {
     margin-bottom: 0;
 }
 
-.person__header {
-    margin-bottom: 32px;
-}
-
 .person__name {
     margin: 0;
     font-size: 36px;
@@ -52,22 +50,23 @@ body {
 }
 
 .person__link {
-    color: #E20613;
     text-decoration: none;
+    color: #E20613;
+    font-weight: normal;
+    font-size: 16px;
 }
-
 .person__photo {
     margin-right: 32px;
 }
 
 .person__position {
-    color: #545454;
     font-style: italic;
     font-size: 18px;
+    color: #545454;
 }
+
 
 .person__special {
-    color: #ED6D05;
+    color:  #ED6D05;
     font-weight: normal;
 }
-
